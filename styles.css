@@ -1,0 +1,55 @@
+/*
+Color reference
+Palette name: Bonegans
+#fefefe - white
+#7d7077 - old lavender
+#e1e1e0 - platnium
+#de6f83 - candy pink
+#eef0ef - cultured
+*/
+
+* {
+    color: #7d7077;
+    background-color: #fefefe;
+    margin: auto;
+}
+
+.navbar {
+    background-color: #e1e1e0;
+}
+
+.nav-item .nav-link {
+    color: #de6f83;
+}
+
+.cardsect {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 50%;
+}
+
+.col-sm6 {
+    width: 90%;
+    height: auto;
+}
+
+.maps {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-left: 5%;
+    min-width: 450px;
+    width: 90%;
+    height: 450px;
+    margin-top: 1%;
+}
+
+.foot {
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+form {
+    margin: auto;
+    width: 80%;
+}
